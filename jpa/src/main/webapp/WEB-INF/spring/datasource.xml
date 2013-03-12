@@ -11,7 +11,7 @@
 	<!-- enable transaction demarcation with annotations -->
 	<tx:annotation-driven />
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
-		destroy-method="close" p:driverClass="com.mysql.jdbc.Driver"
+		 p:driverClass="com.mysql.jdbc.Driver"
 		p:jdbcUrl="jdbc:mysql://localhost:3306/jpa"
 		p:user="root" p:password="root" p:checkoutTimeout="5000"/>
 	
