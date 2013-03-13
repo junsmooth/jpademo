@@ -5,7 +5,6 @@
 >
 	<persistence-unit name="hibernatejpa" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<class>org.bgrimm.jpa.User</class>
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
 			<!-- 
